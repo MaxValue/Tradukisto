@@ -1,0 +1,26 @@
+YAML may be the most human friendly format for structured data invented so far.
+
+=== YAML examples and usage in notable Python apps ===
+
+YAML is a feature-overcrept language. Most packages below use its subset.
+
+ * tmuxp - http://tmuxp.readthedocs.org/en/latest/examples.html
+ * ansible - http://www.ansibleworks.com/docs/YAMLSyntax.html and http://www.ansibleworks.com/docs/playbooks.html#id9
+ * appengine - https://developers.google.com/appengine/docs/python/config/appconfig and https://github.com/rietveld-codereview/rietveld/blob/master/app.yaml
+ * salt - http://docs.saltstack.com/topics/tutorials/starting_states.html#default-data-yaml
+
+=== Full YAML parsers ===
+
+PyYAML - http://pyyaml.org/ - due to complexity of YAML spec, this is the only package that tried to be compliant. It is C-based.
+
+=== Parsers for YAML subsets ===
+
+Luckily, you may not need the full YAML spec. These libraries can parse
+only the sweetest parts of YAML spec that you may reuse in your configs.
+
+Unfortunately, there doesn't seem to be any Python code that parses YAML
+subset - pretty much every lib uses PyYAML. But still it worth to list
+honorable mentions that may be modified to build mininal parsers:
+
+ * rsolnite - https://pypi.python.org/pypi/rsonlite/0.1.0
+ * kivy - https://github.com/kivy/kivy/blob/master/kivy/lang.py and http://kivy.org/docs/guide/lang.html

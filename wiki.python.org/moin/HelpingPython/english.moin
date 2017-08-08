@@ -1,0 +1,23 @@
+== How to Help Python ==
+
+There are tons of ways you can help out Python and the associated community.  Because Python is a community project,
+there's very little structure; you just have to find an area you're interested in and dive in!  Money is good, but
+time is even more precious; contribute your time to Python today!
+
+Here are a few ideas:
+
+- [[CoreDevelopment|Help out with core Python development]] by reviewing patches and fixing bugs.
+
+- Proofread, edit, and extend the [[http://www.python.org/dev/doc/|documentation]]
+
+- Join a [[LocalUserGroups|local user group]] and encourage other people you know to attend.
+
+- [[http://www.python.org/psf/volunteer/|Volunteer]] to help out the Python Software Foundation!
+
+- Blog about your own Pythonic endeavors and syndicate your blog on [[http://planet.python.org/|planet.python.org]] and [[http://planetpython.org/|planetpython.org]].
+
+- Participate in the Google Summer of Code or the Google Highly Open Participation contest as a mentor or a student.
+
+- Download interesting packages from the [[http://pypi.python.org/pypi|Python Package Index]], install them, and test them out.
+
+- Help porting python [[Python3PortingStatus|modules and software]] or [[Python3LinuxDistroPortingStatus|operating system depencies]] from Python 2 to Python 3. This is a serious issue as [[http://legacy.python.org/dev/peps/pep-0373/#release-schedule|the last Python 2 release happens in 2020]].
